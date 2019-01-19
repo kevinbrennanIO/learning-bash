@@ -6,3 +6,6 @@ date
 cal
 pwd
 ls
+
+echo $SHELL
+which $SHELL
