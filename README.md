@@ -19,3 +19,6 @@ Never name your private variables using UPPERCASE characters. This is because up
 
 ### Quick Tip:
 When unsure whether your command produced stdout or stderr try to redirect its output. For example, if you are able to redirect its output successfully to a file with 2> notation, it means that your command produced stderr. Conversely, successfully redirecting command output with > notation is indicating that your command produced stdout.
+
+### Quick Tip:
+The moment you notice that your script contains two lines of the same code, you may consider to enact a function instead.
