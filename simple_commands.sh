@@ -9,3 +9,6 @@ ls
 
 echo $SHELL
 which $SHELL
+
+file ${PWD}
+
