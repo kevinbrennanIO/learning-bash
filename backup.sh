@@ -22,6 +22,20 @@ for x in {1..100} ; do
 done ;
 echo 
 echo "Backup of $input completed! Details about the output backup file:"
+
+function total_files {
+
+	find ${1} -type f | wc -l
+}
+
+function total_directories {
+
+	find ${1} -type d | wc -l
+}
+echo -n "Files to be included:"
+total_files $input
+echo -n "Directories to be included:"
+total_directories $input
 sleep 1
 
 tar -czf $output $input 2> /dev/null
