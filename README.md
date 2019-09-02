@@ -1,8 +1,7 @@
 # learning-bash
 
 # Best Practices
-Best Practices https://bertvv.github.io/cheat-sheets/Bash.html
-More Best Practices https://kvz.io/blog/2013/11/21/bash-best-practices/
+See here for [best practices](https://bertvv.github.io/cheat-sheets/Bash.html) and [more best practices](https://kvz.io/blog/2013/11/21/bash-best-practices/)
 
 ## Resources
 Complete Beginner https://linuxconfig.org/bash-scripting-tutorial-for-beginners#h18-1-arithmetic-expansion
