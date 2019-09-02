@@ -26,3 +26,13 @@ set -o nounset   # (set -u) abort on unbound variable
 set -o xtrace    # (set -x) trace what get executed
 set -o pipefail  # don't hide errors within pipes
 
+### Global variables Start ###
+# ...
+### Global variables End ###
+
+### Function Definition Start ###
+# ...
+### Function Definition End ###
+
+### Main Function ###
+
