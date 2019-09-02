@@ -19,6 +19,7 @@
 
 readonly script_name=$(basename "${0}")
 readonly script_dir=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
+
 IFS=$'\t\n'   # Split on newlines and tabs (but not on spaces)
 
 set -o errexit   # (set -e) abort on nonzero exitstatus

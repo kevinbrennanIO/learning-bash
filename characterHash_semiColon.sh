@@ -1,7 +1,7 @@
 #!/bin/bash
 
-name=tea
-var=10
+name="tea"
+var="10"
 
 # Counts the number of characters in a variable
 echo "The word $name contains ${#name} letters."
